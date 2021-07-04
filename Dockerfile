@@ -15,4 +15,4 @@ RUN apk --update --no-cache add curl build-base && \
 
 COPY ./docker-entrypoint.sh /
 
-CMD /usr/local/bin/udpxy -vT -p 4022 -c 10 -M 300
+CMD /usr/local/bin/udpxy -vT -p 4022 -c 10 -M 55
